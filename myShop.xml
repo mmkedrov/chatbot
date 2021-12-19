@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<myShop>
+	<!-- Таблица category -->
+	<category>
+		<item>
+			<id>1</id>
+			<name>Ассортимент</name>
+			<parent>0</parent>
+		</item>
+		<item>
+			<id>2</id>
+			<name>Телевизоры</name>
+			<parent>1</parent>
+		</item>
+		<item>
+			<id>3</id>
+			<name>Мобильные телефоны</name>
+			<parent>1</parent>
+		</item>
+		<item>
+			<id>4</id>
+			<name>Компьютеры</name>
+			<parent>1</parent>
+		</item>
+	</category>
+	<!-- Таблица city -->
+	<city>
+		<item>
+			<id>1</id>
+			<name>Москва</name>
+		</item>
+		<item>
+			<id>2</id>
+			<name>Нью-Йорк</name>
+		</item>
+	</city>
+	<!-- Таблица color -->
+	<color>
+		<item>
+			<id>1</id>
+			<name>Белый</name>
+		</item>
+		<item>
+			<id>2</id>
+			<name>Черный</name>
+		</item>
+		<item>
+			<id>3</id>
+			<name>Синий</name>
+		</item>
+	</color>
+	<!-- Таблица customer -->
+	<customer>
+		<item>
+			<id>1</id>
+			<firstname>Антон</firstname>
+			<lastname>Антонов</lastname>
+			<age>23</age>
+			<sex>M</sex>
+			<address>1</address>
+		</item>
+		<item>
+			<id>2</id>
+			<firstname>Клавдия</firstname>
+			<lastname>Клавдиева</lastname>
+			<age>35</age>
+			<sex>F</sex>
+			<address>2</address>
+		</item>
+	</customer>
+	<!-- Таблица material -->
+	<material>
+		<item>
+			<id>1</id>
+			<name>Пластмасса</name>
+		</item>
+		<item>
+			<id>2</id>
+			<name>Алюминий</name>
+		</item>
+		<item>
+			<id>3</id>
+			<name>Сталь</name>
+		</item>
+		<item>
+			<id>4</id>
+			<name>Дерево</name>
+		</item>
+	</material>
+	<!-- Таблица order -->
+	<order>
+		<item>
+			<id>1</id>
+			<product_id>4</product_id>
+			<customer_id>1</customer_id>
+			<date>2020-07-07</date>
+		</item>
+		<item>
+			<id>2</id>
+			<product_id>1</product_id>
+			<customer_id>2</customer_id>
+			<date>2020-03-03</date>
+		</item>
+	</order>
+	<!-- Таблица product  -->
+	<product>
+		<item>
+			<id>1</id>
+			<name>Телевизор Panasonic</name>
+			<category_id>2</category_id>
+			<price>1000</price>
+			<color_id>1</color_id>
+			<size>BIG</size>
+			<season_id>2</season_id>
+			<material_id>1</material_id>
+		</item>
+		<item>
+			<id>2</id>
+			<name>Мобильный телефон Samsung</name>
+			<category_id>3</category_id>
+			<price>2000</price>
+			<color_id>2</color_id>
+			<size>SMALL</size>
+			<season_id>3</season_id>
+			<material_id>4</material_id>
+		</item>
+		<item>
+			<id>3</id>
+			<name>Телевизор Samsung</name>
+			<category_id>2</category_id>
+			<price>1500</price>
+			<color_id>3</color_id>
+			<size>А</size>
+			<season_id>3</season_id>
+			<material_id>2</material_id>
+		</item>
+		<item>
+			<id>4</id>
+			<name>Компьютер HP</name>
+			<category_id>3</category_id>
+			<price>500</price>
+			<color_id>3</color_id>
+			<size>Middle</size>
+			<season_id>4</season_id>
+			<material_id>3</material_id>
+		</item>
+	</product>
+	<!-- Таблица season -->
+	<season>
+		<item>
+			<id>1</id>
+			<name>Зима</name>
+		</item>
+		<item>
+			<id>2</id>
+			<name>Весна</name>
+		</item>
+		<item>
+			<id>3</id>
+			<name>Лето</name>
+		</item>
+		<item>
+			<id>4</id>
+			<name>Осень</name>
+		</item>
+	</season>
+</myShop>
